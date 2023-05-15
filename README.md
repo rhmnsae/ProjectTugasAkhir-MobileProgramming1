@@ -15,7 +15,7 @@ Mac News adalah sebuah aplikasi berita terkini yang menyediakan informasi terper
 
 Dalam era informasi yang semakin cepat dan kompleks, Mac News hadir sebagai solusi yang menghadirkan berita dengan kualitas dan keandalan tinggi. Aplikasi ini memastikan bahwa pengguna dapat mengakses berita terkini secara mudah dan cepat, tanpa khawatir tentang akurasi dan validitas informasi yang disajikan.
 
-# :TAMPILAN UI DARI APLIKASI MAC NEWS
+## 🎨: TAMPILAN UI DARI APLIKASI MAC NEWS
 
 <div align="center">
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/5aeb4411-911b-4098-8b08-70025a552414" alt="01 - Splash Screen" width="160">
