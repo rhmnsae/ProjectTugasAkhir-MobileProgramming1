@@ -1,5 +1,14 @@
 # PROJECT TUGAS AKHIR - MOBILE PROGRAMMING 1
 
+Anggota Kelompok 
+- Recommended List Restaurant
+- Detail Restaurant
+- Show Rating & Reviews Restaurant
+- Search Restaurant
+- Favorite Restaurant
+- Review Restaurant
+- Daily Reminder
+
 # 📰: Mack News
 
 Mac News adalah sebuah aplikasi berita terkini yang menyediakan informasi terpercaya dan terbaru dari Indonesia. Dengan singkatan "Most Accurate and Latest News Provider," Mac News bertujuan untuk menjadi sumber berita utama yang memberikan laporan yang akurat, terkini, dan menyeluruh kepada pengguna di seluruh negeri.
