@@ -7,13 +7,13 @@
 - Rizki Anugrah (17211014)
 - Saepul Rohman (17213040)
 
-## 📰 Mack News
+## 📰 Mack News (Most Accurate and Latest News Provider)
 
 Mac News adalah sebuah aplikasi berita terkini yang menyediakan informasi terpercaya dan terbaru dari Indonesia. Dengan singkatan "Most Accurate and Latest News Provider," Mac News bertujuan untuk menjadi sumber berita utama yang memberikan laporan yang akurat, terkini, dan menyeluruh kepada pengguna di seluruh negeri.
 
 Dalam era informasi yang semakin cepat dan kompleks, Mac News hadir sebagai solusi yang menghadirkan berita dengan kualitas dan keandalan tinggi. Aplikasi ini memastikan bahwa pengguna dapat mengakses berita terkini secara mudah dan cepat, tanpa khawatir tentang akurasi dan validitas informasi yang disajikan.
 
-## 🎨 TAMPILAN UI DARI APLIKASI MAC NEWS
+## 🎨 TAMPILAN UI APLIKASI MAC NEWS
 
 <div align="center">
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/5aeb4411-911b-4098-8b08-70025a552414" alt="01 - Splash Screen" width="160">
