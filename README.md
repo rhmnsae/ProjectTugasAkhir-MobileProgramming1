@@ -1,18 +1,5 @@
 # ProjectTugasAkhir-MobileProgramming1
 
-<style>
-    .image-grid {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-gap: 10px;
-    }
-
-    .image-grid img {
-        max-width: 100%;
-        height: auto;
-    }
-</style>
-
 <div class="image-grid">
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/5aeb4411-911b-4098-8b08-70025a552414" alt="01 - Splash Screen">
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/72bba266-9429-4925-ba52-77baedfaf264" alt="02 - Onboarding">
