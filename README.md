@@ -1,13 +1,11 @@
 # PROJECT TUGAS AKHIR - MOBILE PROGRAMMING 1
 
 ### Anggota Kelompok 
-- Recommended List Restaurant
-- Detail Restaurant
-- Show Rating & Reviews Restaurant
-- Search Restaurant
-- Favorite Restaurant
-- Review Restaurant
-- Daily Reminder
+- Jana Fitria Malawat (17211009)
+- Nanda Dwi Husna Sadiqin (17213938)
+- Nandi Dwi Husni Sadiqin (17213039)
+- Rizki Anugrah (17211014)
+- Saepul Rohman (17213040)
 
 ## 📰 Mack News
 
