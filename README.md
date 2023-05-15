@@ -28,6 +28,7 @@ Dalam era informasi yang semakin cepat dan kompleks, Mac News hadir sebagai solu
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/9d36ec1a-e154-48fb-a127-7f8363020f71" alt="10 - Profile" width="160">
 </div>
 
+*Design By Figma.*
 
 
 
