@@ -1,4 +1,4 @@
-# ProjectTugasAkhir-MobileProgramming1
+# PROJECT TUGAS AKHIR - MOBILE PROGRAMMING 1
 
 # 📰: Mack News
 
