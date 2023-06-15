@@ -9,9 +9,7 @@
 
 ## 📰 Mack News (Most Accurate and Latest News Provider)
 
-Mac News adalah sebuah aplikasi berita terkini yang menyediakan informasi terpercaya dan terbaru dari Indonesia. Dengan singkatan "Most Accurate and Latest News Provider," Mac News bertujuan untuk menjadi sumber berita utama yang memberikan laporan yang akurat, terkini, dan menyeluruh kepada pengguna di seluruh negeri.
-
-Dalam era informasi yang semakin cepat dan kompleks, Mac News hadir sebagai solusi yang menghadirkan berita dengan kualitas dan keandalan tinggi. Aplikasi ini memastikan bahwa pengguna dapat mengakses berita terkini secara mudah dan cepat, tanpa khawatir tentang akurasi dan validitas informasi yang disajikan.
+Mac News adalah sebuah aplikasi berita sederhana.
 
 ## 🎨 TAMPILAN UI APLIKASI MAC NEWS
 
