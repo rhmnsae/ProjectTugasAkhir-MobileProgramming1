@@ -1,6 +1,6 @@
 # PROJECT TUGAS AKHIR - MOBILE PROGRAMMING 1
 
-## React Native
+### React Native APP
 
 ### Anggota Kelompok 
 - Jana Fitria Malawat (17211009)
