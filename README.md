@@ -1,5 +1,7 @@
 # PROJECT TUGAS AKHIR - MOBILE PROGRAMMING 1
 
+##React Native
+
 ### Anggota Kelompok 
 - Jana Fitria Malawat (17211009)
 - Nanda Dwi Husna Sadiqin (17213938)
@@ -9,7 +11,7 @@
 
 ## 📰 Mack News (Most Accurate and Latest News Provider)
 
-Mac News adalah sebuah aplikasi berita sederhana, kepanjangan dari Most Accurate and Latest News Provider.
+Mac News adalah sebuah aplikasi berita sederhana yang merupakan singkatan dari "Most Accurate and Current News Provider" atau "Pemberi Berita Paling Akurat dan Terkini".
 
 ## 🎨 TAMPILAN UI APLIKASI MAC NEWS
 
