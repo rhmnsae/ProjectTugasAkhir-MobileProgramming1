@@ -9,7 +9,7 @@
 
 ## 📰 Mack News (Most Accurate and Latest News Provider)
 
-Mac News adalah sebuah aplikasi berita sederhana.
+Mac News adalah sebuah aplikasi berita sederhana, kepanjangan dari Most Accurate and Latest News Provider.
 
 ## 🎨 TAMPILAN UI APLIKASI MAC NEWS
 
