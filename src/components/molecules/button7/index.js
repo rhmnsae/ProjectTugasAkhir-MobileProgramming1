@@ -9,19 +9,19 @@ import {
   Linking,
 } from 'react-native';
 import {fonts} from '../../../fonts';
-import {IGoogle} from '../../../assets';
+import {Ifacebook} from '../../../assets';
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
-const Button3 = ({label, onPress, link}) => {
+const Button7 = ({label, onPress, link}) => {
   const buttonWidthPercentage = 0.86;
   const buttonHeight = 0.075 * windowHeight;
   const imageContainerWidth = 0.075 * windowWidth;
   const imageContainerAspectRatio = 1;
 
   const handleButtonPress = () => {
-    Linking.openURL('https://myaccount.google.com');
+    Linking.openURL('https://facebook.com');
   };
 
   return (
@@ -40,9 +40,9 @@ const Button3 = ({label, onPress, link}) => {
               aspectRatio: imageContainerAspectRatio,
             },
           ]}>
-          <Image source={IGoogle} style={styles.gmbr} resizeMode="contain" />
+          <Image source={Ifacebook} style={styles.gmbr} resizeMode="contain" />
         </View>
-        <Text style={styles.text}>Sign In With Google</Text>
+        <Text style={styles.text}>Sign In With Facebook</Text>
       </TouchableOpacity>
     </View>
   );
@@ -52,7 +52,6 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     top: 0.265 * windowHeight,
-    marginBottom: 0.019 * windowHeight,
   },
   button: {
     backgroundColor: '#F3F4F6',
@@ -74,8 +73,8 @@ const styles = StyleSheet.create({
     flex: 1,
     width: undefined,
     height: undefined,
-    marginLeft: -0.3 * windowWidth,
+    marginLeft: -0.25 * windowWidth,
   },
 });
 
-export default Button3;
+export default Button7;

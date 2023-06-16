@@ -47,6 +47,17 @@ import IBerita19 from './Berita19.jpg';
 import IBerita20 from './Berita20.jpg';
 import IBerita21 from './Berita21.jpg';
 import IBerita22 from './Berita22.jpg';
+import ICategoNav from './categoNav.svg';
+import ICategoOn from './categoOn.svg';
+import IPanah from './panah.png';
+import Isae from './sae.png';
+import Ijana from './jana.png';
+import Iiki from './iki.png';
+import Inanda from './nanda.png';
+import Inandi from './nandi.png';
+import Ifacebook from './facebook.png';
+import Ishare from './share.png';
+import Ibook from './book.png'
 
 export {
   ILogo,
@@ -98,4 +109,15 @@ export {
   IBerita20,
   IBerita21,
   IBerita22,
+  ICategoNav,
+  ICategoOn,
+  IPanah,
+  Isae,
+  Ijana,
+  Iiki,
+  Inanda,
+  Inandi,
+  Ifacebook,
+  Ishare,
+  Ibook
 };

@@ -7,19 +7,26 @@ import {
   TouchableOpacity,
   ScrollView,
   Dimensions,
+  Share,
 } from 'react-native';
-import {IBack} from '../../assets';
+import {IBack, IbookmarkBerita, Ishare} from '../../assets';
 import {fonts} from '../../fonts';
 import Pinchable from 'react-native-pinchable';
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
-const Detail1 = ({onPress, route, navigation}) => {
+const Detail1 = ({route, navigation}) => {
   const {image} = route.params;
   const {titleDetail} = route.params;
   const {textDetail1} = route.params;
   const {textDetail2} = route.params;
+
+  const handleShare = () => {
+    Share.share({
+      message: 'MacNews',
+    });
+  };
 
   return (
     <ScrollView>
@@ -32,6 +39,12 @@ const Detail1 = ({onPress, route, navigation}) => {
                 navigation.navigate('MainApp');
               }}>
               <Image source={IBack} style={styles.back} />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={handleShare}>
+              <Image source={Ishare} style={styles.share} />
+            </TouchableOpacity>
+            <TouchableOpacity>
+              <Image source={IbookmarkBerita} style={styles.book} />
             </TouchableOpacity>
           </View>
           <Pinchable>
@@ -107,13 +120,17 @@ const styles = StyleSheet.create({
     width: 0.08 * windowWidth,
     height: 0.08 * windowWidth,
   },
-  bookmark: {
-    width: 0.08 * windowWidth,
-    height: 0.08 * windowWidth,
+  book: {
+    position: 'absolute',
+    width: 0.07 * windowWidth,
+    height: 0.07 * windowWidth,
+    left: 0.9 * windowWidth,
   },
-  bookmarkedIcon: {
-    // Apply different style when bookmarked
-    tintColor: '#6D9886', // Example: Change the color to red
+  share: {
+    position: 'absolute',
+    width: 0.07 * windowWidth,
+    height: 0.07 * windowWidth,
+    left: 0.78 * windowWidth,
   },
 });
 

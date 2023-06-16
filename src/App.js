@@ -8,6 +8,10 @@ import {
   HomePage,
   Profile,
   Detail1,
+  Categorie,
+  Bookmark,
+  DetailKelompok,
+  Categ
 } from './pages';
 import {NavigationContainer, DefaultTheme} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
@@ -24,6 +28,16 @@ const MainApp = () => {
       <Tab.Screen
         name="HomePage"
         component={HomePage}
+        options={{headerShown: false}}
+      />
+      <Tab.Screen
+        name="Categorie"
+        component={Categorie}
+        options={{headerShown: false}}
+      />
+      <Tab.Screen
+        name="Bookmark"
+        component={Bookmark}
         options={{headerShown: false}}
       />
       <Tab.Screen
@@ -61,7 +75,7 @@ const App = () => {
   const colorScheme = useColorScheme();
   return (
     <NavigationContainer theme={colorScheme === 'dark' ? DarkTheme : MyTheme}>
-      <Stack.Navigator initialRouteName="SplashScreen">
+      <Stack.Navigator initialRouteName="MainApp">
         <Stack.Screen
           name="SplashScreen"
           component={SplashScreen}
@@ -95,6 +109,16 @@ const App = () => {
         <Stack.Screen
           name="Detail1"
           component={Detail1}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="DetailKelompok"
+          component={DetailKelompok}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="Categ"
+          component={Categ}
           options={{headerShown: false}}
         />
       </Stack.Navigator>

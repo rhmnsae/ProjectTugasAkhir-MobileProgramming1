@@ -1,7 +1,6 @@
 import React from 'react';
 import {Text, View, StyleSheet, ScrollView, Dimensions} from 'react-native';
 import {fonts} from '../../fonts';
-import {Input} from '../../components/atoms';
 import {
   IBerita1,
   IBerita2,
@@ -10,7 +9,6 @@ import {
   IBerita5,
   IBerita6,
   IBerita7,
-  ISearch,
   IBerita8,
   IBerita9,
   IBerita10,
@@ -28,18 +26,17 @@ import {
   IBerita21,
 } from '../../assets';
 import {Card} from '../../components/News';
-import Cate2 from '../../components/News';
 
-const HomePage = ({navigation}) => {
+const Categ = ({navigation, route}) => {
+  const {title} = route.params;
+  const {text} = route.params;
+
   return (
     <ScrollView>
       <View style={style.container}>
         <View style={style.wrapper}>
-          <Text style={style.text1}>Browse</Text>
-          <Text style={style.text2}>Discover things of this world</Text>
-        </View>
-        <View>
-          <Input gmbr={ISearch} plc="Search" />
+          <Text style={style.text1}>{title}</Text>
+          <Text style={style.text2}>{text}</Text>
         </View>
         <View style={style.news}>
           <Card
@@ -344,18 +341,6 @@ const HomePage = ({navigation}) => {
               });
             }}
           />
-          {/* <Card
-            img={Ikucing7}
-            label="Lorem ipsum dolor sit amet consectetur."
-            onPress={() => {
-              navigation.navigate('Detail1', {
-                image: Ikucing3,
-                titleDetail: '',
-                textDetail1: '',
-                textDetail2: '',
-              });
-            }}
-          /> */}
         </View>
       </View>
     </ScrollView>
@@ -395,4 +380,4 @@ const style = StyleSheet.create({
   },
 });
 
-export default HomePage;
+export default Categ;

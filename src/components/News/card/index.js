@@ -9,6 +9,7 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 import {fonts} from '../../../fonts';
+import {IbookmarkBerita} from '../../../assets';
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -19,7 +20,7 @@ const Card = ({img, label, onPress}) => {
   const textFontSize = 0.045 * windowWidth;
 
   const truncatedLabel =
-    label.length > 65 ? `${label.substring(0, 65)}...` : label;
+    label.length > 45 ? `${label.substring(0, 45)}...` : label;
 
   return (
     <View
@@ -37,6 +38,9 @@ const Card = ({img, label, onPress}) => {
           </Text>
         </TouchableOpacity>
       </View>
+      <TouchableOpacity>
+        <Image source={IbookmarkBerita} style={styles.book}/>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -54,16 +58,21 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   contentContainer: {
-    padding: 0.02 * windowWidth,
     margin: 0.025 * windowWidth,
-    width: '100%',
-    height: 'auto',
+    width: 0.67 * windowWidth,
+    height: 0.12 * windowWidth,
   },
   text: {
     fontFamily: fonts.primary.semibold,
     paddingRight: 0.059 * windowWidth,
     color: '#333647',
   },
+  book: {
+    width: 0.08 * windowWidth,
+    height: 0.08 * windowWidth,
+    marginLeft: 0.77 * windowWidth,
+    bottom: 0.10 * windowWidth,
+  }
 });
 
 export default Card;

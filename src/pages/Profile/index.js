@@ -9,7 +9,7 @@ import {
   Linking,
 } from 'react-native';
 import {fonts} from '../../fonts';
-import {Button4} from '../../components/molecules';
+import {Button4, Button5, Notif, Button6} from '../../components/molecules';
 import {Iprof} from '../../assets';
 
 const windowWidth = Dimensions.get('window').width;
@@ -21,12 +21,6 @@ const Profile = ({navigation}) => {
   const gbrHeight = 0.22 * windowWidth;
   const text2FontSize = 0.045 * windowWidth;
   const text3FontSize = 0.04 * windowWidth;
-
-  const handleButtonPress = () => {
-    Linking.openURL(
-      'https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1',
-    );
-  };
 
   return (
     <View style={styles.container}>
@@ -43,14 +37,18 @@ const Profile = ({navigation}) => {
           surotongotong@gmail.com
         </Text>
       </View>
+      <Notif />
+      <Button5
+        onPress={() => {
+          navigation.navigate('DetailKelompok');
+        }}
+      />
+      <Button6 />
       <Button4
         onPress={() => {
           navigation.navigate('SplashScreen');
         }}
       />
-      <TouchableOpacity onPress={handleButtonPress}>
-        <Text style={styles.aboutus}>About us</Text>
-      </TouchableOpacity>
     </View>
   );
 };
@@ -90,9 +88,9 @@ const styles = StyleSheet.create({
   aboutus: {
     color: '#666C8E',
     fontFamily: fonts.primary.semibold,
-    fontSize: 0.04 * windowWidth,
+    fontSize: 0.045 * windowWidth,
     textAlign: 'center',
-    paddingTop: 0.03 * windowWidth,
+    paddingTop: 0.01 * windowWidth,
   },
 });
 

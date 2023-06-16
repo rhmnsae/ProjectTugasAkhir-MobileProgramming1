@@ -11,7 +11,7 @@ import {
   handleError,
 } from 'react-native';
 import {fonts} from '../../fonts';
-import {Button2} from '../../components/molecules';
+import {Button2, Button7} from '../../components/molecules';
 import {Input, InputPass} from '../../components/atoms';
 import {IEmail, ILock} from '../../assets';
 import {Button3} from '../../components/molecules';
@@ -86,7 +86,8 @@ const SignIn = ({navigation}) => {
       />
       <Button2 label="Sign In" onPress={validate} />
       <Text style={styles.text4}>Or</Text>
-      <Button3 label="Sign In With Google" />
+      <Button3/>
+      <Button7/>
       <View style={styles.textBottom}>
         <Text style={styles.textbottom1}>Don't have an account?</Text>
         <TouchableOpacity
@@ -139,7 +140,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    top: 0.44 * windowHeight,
+    top: 0.35 * windowHeight,
   },
   textbottom1: {
     color: '#555A77',
