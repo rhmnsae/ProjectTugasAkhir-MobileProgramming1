@@ -2,7 +2,7 @@
 
 ### Anggota Kelompok 
 - Jana Fitria Malawat (17211009)
-- Nanda Dwi Husna Sadiqin (17213938)
+- Nanda Dwi Husna Sadiqin (17213038)
 - Nandi Dwi Husni Sadiqin (17213039)
 - Rizki Anugrah (17211014)
 - Saepul Rohman (17213040)
