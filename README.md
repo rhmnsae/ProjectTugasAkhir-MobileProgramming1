@@ -14,14 +14,16 @@ Mac News adalah sebuah aplikasi berita sederhana yang merupakan singkatan dari "
 ## 🎨 TAMPILAN UI APLIKASI MAC NEWS
 
 <div align="center">
-    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/223f16c9-e646-4049-82af-6db7221cfc4e" alt="01 - Splash Screen" width="180">
-    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/e85a72dd-44d2-4fb0-b642-50a2767ed76c" alt="02 - Onboarding" width="180">
-    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/d0b5fddc-98e2-43c2-9010-81d8393b3086" alt="03 - Welcome Screen" width="180">
-    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/a2a1f6fc-dc25-4aec-86b3-552a417dc3d2" alt="04 - Sign In" width="180">
-    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/f6b5c97e-75cc-49c8-835d-f55dd6dd7aa7" alt="05 - Sign Up" width="180">
-    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/91bed9dd-f255-458e-ac6b-8b9b1950bbab" alt="06 - Homepage" width="180">
-    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/e6ad66f5-e843-4005-add0-5dc9fa345f27" alt="07 - Bookmarks" width="180">
-    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/940eb307-1600-464c-b5ef-e496e4aa6e15" alt="08 - Bookmarks Empty State" width="180">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/7869634a-5d4f-4b6f-9cb1-de62a0ad3bc3" alt="01 - Splash Screen" width="180">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/5bc721cb-069d-4690-97c0-63c57e20469a" alt="02 - Onboarding" width="180">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/5d23931d-de51-4065-9d14-431fc74d5a39" alt="03 - Welcome Screen" width="180">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/67cda29b-a865-434b-9f75-9eeb23875c5c" alt="04 - Sign In" width="180">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/b19c4b4e-280a-4697-a41f-b7272840c7bd" alt="05 - Sign Up" width="180">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/21888472-e483-4bb4-98da-6349746df6ff" alt="06 - Homepage" width="180">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/3da8e289-d60c-4823-bf77-5e80816565d6" alt="07 - Categories" width="180">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/9158c936-e493-42b1-80de-1ac838be3096" alt="08 - Bookmarks Empty State" width="180">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/370836dd-4835-4f6a-ad11-0ad1594c6a05" alt="09 - Detail" width="180">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/f28c58a0-898f-404d-809c-b99cee6af44d" alt="10 - Profile" width="180">
 </div>
 
 *Design By Figma.*
