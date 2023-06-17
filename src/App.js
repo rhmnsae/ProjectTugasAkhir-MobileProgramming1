@@ -11,7 +11,7 @@ import {
   Categorie,
   Bookmark,
   DetailKelompok,
-  Categ
+  Categ,
 } from './pages';
 import {NavigationContainer, DefaultTheme} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';

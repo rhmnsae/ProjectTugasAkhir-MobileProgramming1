@@ -1,5 +1,13 @@
-import React from 'react';
-import {Text, View, StyleSheet, ScrollView, Dimensions} from 'react-native';
+import React, {useState} from 'react';
+import {
+  Text,
+  View,
+  StyleSheet,
+  ScrollView,
+  Dimensions,
+  FlatList,
+  TouchableOpacity,
+} from 'react-native';
 import {fonts} from '../../fonts';
 import {Input} from '../../components/atoms';
 import {
@@ -31,6 +39,33 @@ import {Card} from '../../components/News';
 import Cate2 from '../../components/News';
 
 const HomePage = ({navigation}) => {
+  const [kategori, setKategori] = useState([
+    {namaKategori: 'Random', selected: false},
+    {namaKategori: 'Sports', selected: false},
+    {namaKategori: 'Life', selected: false},
+    {namaKategori: 'Animals', selected: false},
+    {namaKategori: 'Food', selected: false},
+    {namaKategori: 'History', selected: false},
+    {namaKategori: 'Health', selected: false},
+    {namaKategori: 'Politics', selected: false},
+    {namaKategori: 'Gaming', selected: false},
+    {namaKategori: 'Nature', selected: false},
+    {namaKategori: 'Art', selected: false},
+    {namaKategori: 'Fashion', selected: false},
+    {namaKategori: 'Middle East', selected: false},
+  ]);
+
+  const handleCategoryPress = index => {
+    const updatedKategori = kategori.map((item, i) => {
+      if (i === index) {
+        return {...item, selected: !item.selected};
+      } else {
+        return {...item, selected: false};
+      }
+    });
+    setKategori(updatedKategori);
+  };
+
   return (
     <ScrollView>
       <View style={style.container}>
@@ -38,8 +73,32 @@ const HomePage = ({navigation}) => {
           <Text style={style.text1}>Browse</Text>
           <Text style={style.text2}>Discover things of this world</Text>
         </View>
-        <View>
+        <View style={style.sc}>
           <Input gmbr={ISearch} plc="Search" />
+        </View>
+        <View style={style.list}>
+          <FlatList
+            data={kategori}
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            renderItem={({item, index}) => (
+              <TouchableOpacity
+                style={[
+                  style.catte,
+                  {backgroundColor: item.selected ? '#6D9886' : '#F3F4F6'},
+                ]}
+                onPress={() => handleCategoryPress(index)}>
+                <Text
+                  style={[
+                    style.textcate,
+                    {color: item.selected ? '#FFFFFF' : '#7C82A1'},
+                  ]}>
+                  {item.namaKategori}
+                </Text>
+              </TouchableOpacity>
+            )}
+            keyExtractor={(item, index) => index.toString()}
+          />
         </View>
         <View style={style.news}>
           <Card
@@ -369,11 +428,14 @@ const style = StyleSheet.create({
   container: {
     backgroundColor: '#FFFFFF',
     flex: 1,
-    paddingHorizontal: windowWidth * 0.05, // 5% of the screen windowWidth
   },
   wrapper: {
     marginTop: 0.01 * windowHeight,
     marginBottom: windowWidth * -0.07, // 3% of the screen windowWidth
+    paddingHorizontal: windowWidth * 0.05, // 5% of the screen windowWidth
+  },
+  sc: {
+    paddingHorizontal: windowWidth * 0.05, // 5% of the screen windowWidth
   },
   text1: {
     fontFamily: fonts.primary.semibold,
@@ -392,6 +454,23 @@ const style = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'center',
+  },
+  catte: {
+    width: 0.23 * windowWidth,
+    height: 0.1 * windowWidth,
+    borderRadius: 0.2 * windowWidth,
+    marginRight: 0.03 * windowWidth,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  textcate: {
+    fontSize: windowWidth * 0.035,
+    fontFamily: fonts.primary.semibold,
+  },
+  list: {
+    top: 0.21 * windowWidth,
+    marginBottom: 0.027 * windowWidth,
+    marginTop: 0.027 * windowWidth,
   },
 });
 

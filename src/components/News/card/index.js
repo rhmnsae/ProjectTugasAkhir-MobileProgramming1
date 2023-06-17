@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
   View,
   Text,
@@ -22,6 +22,12 @@ const Card = ({img, label, onPress}) => {
   const truncatedLabel =
     label.length > 45 ? `${label.substring(0, 45)}...` : label;
 
+  const [isBookmarked, setIsBookmarked] = useState(false);
+
+  const handleBookmarkPress = () => {
+    setIsBookmarked(!isBookmarked);
+  };
+
   return (
     <View
       style={[
@@ -38,8 +44,14 @@ const Card = ({img, label, onPress}) => {
           </Text>
         </TouchableOpacity>
       </View>
-      <TouchableOpacity>
-        <Image source={IbookmarkBerita} style={styles.book}/>
+      <TouchableOpacity onPress={handleBookmarkPress}>
+        <Image
+          source={IbookmarkBerita}
+          style={[
+            styles.book,
+            {tintColor: isBookmarked ? '#6D9886' : '#7C82A1'},
+          ]}
+        />
       </TouchableOpacity>
     </View>
   );
@@ -52,7 +64,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
     elevation: 1,
     marginHorizontal: 0.03 * windowWidth,
-    marginBottom: 0.03 * windowWidth,
+    marginBottom: 0.07 * windowWidth,
   },
   image: {
     width: '100%',
@@ -71,8 +83,8 @@ const styles = StyleSheet.create({
     width: 0.08 * windowWidth,
     height: 0.08 * windowWidth,
     marginLeft: 0.77 * windowWidth,
-    bottom: 0.10 * windowWidth,
-  }
+    bottom: 0.1 * windowWidth,
+  },
 });
 
 export default Card;

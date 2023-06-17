@@ -28,6 +28,12 @@ const Detail1 = ({route, navigation}) => {
     });
   };
 
+  const [isBookmarked, setIsBookmarked] = useState(false);
+
+  const handleBookmarkPress = () => {
+    setIsBookmarked(!isBookmarked);
+  };
+
   return (
     <ScrollView>
       <View style={styles.container}>
@@ -43,8 +49,14 @@ const Detail1 = ({route, navigation}) => {
             <TouchableOpacity onPress={handleShare}>
               <Image source={Ishare} style={styles.share} />
             </TouchableOpacity>
-            <TouchableOpacity>
-              <Image source={IbookmarkBerita} style={styles.book} />
+            <TouchableOpacity onPress={handleBookmarkPress}>
+              <Image
+                source={IbookmarkBerita}
+                style={[
+                  styles.book,
+                  {tintColor: isBookmarked ? '#6D9886' : '#7C82A1'},
+                ]}
+              />
             </TouchableOpacity>
           </View>
           <Pinchable>
