@@ -23,7 +23,7 @@ Mac News adalah sebuah aplikasi berita sederhana yang merupakan singkatan dari "
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/3da8e289-d60c-4823-bf77-5e80816565d6" alt="07 - Categories" width="160">
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/9158c936-e493-42b1-80de-1ac838be3096" alt="08 - Bookmarks Empty State" width="160">
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/370836dd-4835-4f6a-ad11-0ad1594c6a05" alt="09 - Detail" width="160">
-    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/f28c58a0-898f-404d-809c-b99cee6af44d" alt="10 - Profile" width="160">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/982e5852-c56e-4a55-a6cc-bfd1e9564f76" alt="10 - Profile" width="160">
 </div>
 
 *Design By Figma.*
