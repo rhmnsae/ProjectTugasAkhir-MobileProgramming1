@@ -50,14 +50,14 @@ import IBerita22 from './Berita22.jpg';
 import ICategoNav from './categoNav.svg';
 import ICategoOn from './categoOn.svg';
 import IPanah from './panah.png';
-import Isae from './sae.png';
-import Ijana from './jana.png';
-import Iiki from './iki.png';
-import Inanda from './nanda.png';
-import Inandi from './nandi.png';
 import Ifacebook from './facebook.png';
 import Ishare from './share.png';
-import Ibook from './book.png'
+import Ibook from './book.png';
+import Sae from './sae.png';
+import Jana from './tJana.png';
+import Iki from './rizki.png';
+import Nandi from './nandi.png';
+import Nanda from './nanda.png';
 
 export {
   ILogo,
@@ -112,12 +112,12 @@ export {
   ICategoNav,
   ICategoOn,
   IPanah,
-  Isae,
-  Ijana,
-  Iiki,
-  Inanda,
-  Inandi,
   Ifacebook,
   Ishare,
-  Ibook
+  Ibook,
+  Nanda,
+  Nandi,
+  Sae,
+  Jana,
+  Iki,
 };

@@ -13,7 +13,7 @@ import {IbookmarkBerita} from '../../../assets';
 
 const windowWidth = Dimensions.get('window').width;
 
-const Card = ({img, label, onPress}) => {
+const Card = ({img, label, onPress, tgl}) => {
   const containerWidth = 0.9 * windowWidth;
   const containerHeight = (301.14 * containerWidth) / 372;
   const imageHeight = (210 * containerWidth) / 372;
@@ -42,6 +42,7 @@ const Card = ({img, label, onPress}) => {
           <Text style={[styles.text, {fontSize: textFontSize, zIndex: 1}]}>
             {truncatedLabel}
           </Text>
+          <Text style={styles.tgl}>{tgl}</Text>
         </TouchableOpacity>
       </View>
       <TouchableOpacity onPress={handleBookmarkPress}>
@@ -71,7 +72,7 @@ const styles = StyleSheet.create({
   },
   contentContainer: {
     margin: 0.025 * windowWidth,
-    width: 0.67 * windowWidth,
+    width: 0.70 * windowWidth,
     height: 0.12 * windowWidth,
   },
   text: {
@@ -84,6 +85,14 @@ const styles = StyleSheet.create({
     height: 0.08 * windowWidth,
     marginLeft: 0.77 * windowWidth,
     bottom: 0.1 * windowWidth,
+  },
+  tgl: {
+    fontSize: 0.04 * windowWidth,
+    color: '#666C8E',
+    marginHorizontal: 0.064 * windowWidth,
+    fontFamily: fonts.primary.medium,
+    top: 0.01 * windowWidth,
+    right: 0.061 * windowWidth,
   },
 });
 

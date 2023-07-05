@@ -40,7 +40,7 @@ import Cate2 from '../../components/News';
 
 const HomePage = ({navigation}) => {
   const [kategori, setKategori] = useState([
-    {namaKategori: 'Random', selected: false},
+    {namaKategori: 'Random', selected: true},
     {namaKategori: 'Sports', selected: false},
     {namaKategori: 'Life', selected: false},
     {namaKategori: 'Animals', selected: false},
@@ -104,6 +104,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita1}
             label="Berapa Sebenarnya Jumlah Kaki yang Dimiliki Kaki Seribu?"
+            tgl="Monday, 13 March 2022"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita1,
@@ -111,13 +112,14 @@ const HomePage = ({navigation}) => {
                   'Berapa Sebenarnya Jumlah Kaki yang Dimiliki Kaki Seribu?',
                 textDetail1: 'Ahmad Naufal Dzulfaroh',
                 textDetail2:
-                  'Kaki seribu merupakan salah satu hewan yang kerap dijumpai di lingkungan rumah. Jumlah kaki yang begitu banyak dan tersebar di sepanjang tubuhnya membuat hewan ini disebut dengan kaki seribu. Namun, benarkah jumlah kaki yang dimiliki hewan ini berjumlah seribu? Dikutip dari Science Focus, tidak ada satu pun spesies kaki seribu yang pernah ditemukan memiliki kaki sebanyak itu. Baca juga: Apakah Makan Daging Hewan yang Terkena Kanker Picu Risiko Kanker? Jumlah kaki Kaki seribu termasuk dalam filum organisme yang disebut arthropoda, kategori yang mencakup invertebrata beragam seperti laba-laba, kalajengking, dan kupu-kupu. Spesies umum artropoda penggali ini memiliki antara 40 dan 400 kaki. Angka ini lebih dari cukup untuk menggerakkan tubuh kaki seribu ke depan. Sementara itu, para ilmuwan memilih awalan bahasa Latin "mili-" yang berarti 1.000 untuk menggambarkan banyaknya jumlah kaki hewan ini. Pasalnya, para ilmuwan tidak mengetahui secara persis jumlah kaki hewan ini. Dikutip dari How Stuff Works, semua arthropoda memiliki kesamaan kerangka luar yang keras, tubuh tersegmentasi, dan kaki bersendi. Bedanya, setiap segmen tubuh kaki seribu memiliki dua pasang kaki, bukan satu pasang.Hewan adaptif Memiliki begitu banyak kaki adalah bagian dari apa yang membuat kaki seribu begitu adaptif. Bukti fosil menunjukkan bahwa kaki seribu adalah salah satu hewan darat pertama yang berarti mereka telah ada selama sekitar 400 juta tahun. Kembali pada periode konifera, sekitar 300 juta tahun yang lalu, spesies kaki seribu yang dikenal sebagai Arthropleura tumbuh dengan panjang 2 meter dan lebar 0,5 meter. Saat ini, kaki seribu memiliki ukuran mulai dari 3 milimeter hingga sekitar 0,3 meter. Para ilmuwan telah menemukan sekitar 12.000 spesies di setiap benua kecuali Antartika, tetapi diperkirakan ada sebanyak 80.000 spesies di Bumi ini.Fungsi kaki banyak Kaki seribu memakan serasah daun yang berlimpah di seluruh dunia, meskipun tidak kaya akan nutrisi. Ini berarti kaki seribu menghabiskan sebagian besar waktunya di tanah, di bawah dedaunan, dan bebatuan. Hal yang membuat mereka begitu efektif untuk berkeliling di habitat yang padat ini adalah jumlah kaki mereka. Ketika kaki seribu menetas, mereka hanya memiliki beberapa pasang kaki. Kemudian mereka tumbuh melalui proses yang disebut molting. Proses ini melibatkan pelepasan kerangka luar dan menumbuhkan kerangka baru. Setiap kali melakukan ini, kaki seribu juga menumbuhkan segmen baru dan karenanya memiliki dua pasang kaki baru.',
+                  'Kaki seribu merupakan salah satu hewan yang kerap dijumpai di lingkungan rumah. Jumlah kaki yang begitu banyak dan tersebar di sepanjang tubuhnya membuat hewan ini disebut dengan kaki seribu Namun, benarkah jumlah kaki yang dimiliki hewan ini berjumlah seribu? Dikutip dari Science Focus, tidak ada satu pun spesies kaki seribu yang pernah ditemukan memiliki kaki sebanyak itu. Baca juga: Apakah Makan Daging Hewan yang Terkena Kanker Picu Risiko Kanker? Jumlah kaki Kaki seribu termasuk dalam filum organisme yang disebut arthropoda, kategori yang mencakup invertebrata beragam seperti laba-laba, kalajengking, dan kupu-kupu. Spesies umum artropoda penggali ini memiliki antara 40 dan 400 kaki. Angka ini lebih dari cukup untuk menggerakkan tubuh kaki seribu ke depan. Sementara itu, para ilmuwan memilih awalan bahasa Latin "mili-" yang berarti 1.000 untuk menggambarkan banyaknya jumlah kaki hewan ini. Pasalnya, para ilmuwan tidak mengetahui secara persis jumlah kaki hewan ini. Dikutip dari How Stuff Works, semua arthropoda memiliki kesamaan kerangka luar yang keras, tubuh tersegmentasi, dan kaki bersendi. Bedanya, setiap segmen tubuh kaki seribu memiliki dua pasang kaki, bukan satu pasang.Hewan adaptif Memiliki begitu banyak kaki adalah bagian dari apa yang membuat kaki seribu begitu adaptif. Bukti fosil menunjukkan bahwa kaki seribu adalah salah satu hewan darat pertama yang berarti mereka telah ada selama sekitar 400 juta tahun. Kembali pada periode konifera, sekitar 300 juta tahun yang lalu, spesies kaki seribu yang dikenal sebagai Arthropleura tumbuh dengan panjang 2 meter dan lebar 0,5 meter. Saat ini, kaki seribu memiliki ukuran mulai dari 3 milimeter hingga sekitar 0,3 meter. Para ilmuwan telah menemukan sekitar 12.000 spesies di setiap benua kecuali Antartika, tetapi diperkirakan ada sebanyak 80.000 spesies di Bumi ini.Fungsi kaki banyak Kaki seribu memakan serasah daun yang berlimpah di seluruh dunia, meskipun tidak kaya akan nutrisi. Ini berarti kaki seribu menghabiskan sebagian besar waktunya di tanah, di bawah dedaunan, dan bebatuan. Hal yang membuat mereka begitu efektif untuk berkeliling di habitat yang padat ini adalah jumlah kaki mereka. Ketika kaki seribu menetas, mereka hanya memiliki beberapa pasang kaki. Kemudian mereka tumbuh melalui proses yang disebut molting. Proses ini melibatkan pelepasan kerangka luar dan menumbuhkan kerangka baru. Setiap kali melakukan ini, kaki seribu juga menumbuhkan segmen baru dan karenanya memiliki dua pasang kaki baru.',
               });
             }}
           />
           <Card
             img={IBerita2}
             label="Nenek 77 Tahun Ini Nikahi Dirinya Sendiri setelah Pernikahan..."
+            tgl="Tuesday, 19 April 2022"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita2,
@@ -125,13 +127,14 @@ const HomePage = ({navigation}) => {
                   'Nenek 77 Tahun Ini Nikahi Dirinya Sendiri setelah Pernikahan Pertama Berantakan',
                 textDetail1: 'WASHINGTON',
                 textDetail2:
-                  'Seorang nenek berusia 77 tahun di Ohio, Amerika Serikat (AS), telah mengadakan pernikahan mewah yang tidak biasa karena dia menikahi dirinya sendiri. Itu dia jalani setelah sakit hati seumur hidup yang dirasakan akibat pernikahan pertamanya yang berantakan. Menikahi dirinya sendiri adalah mimpi Dorothy "Dottie" Fideli yang menjadi kenyataan. Pernikahan yang tidak biasa ini digelar dalam sebuah upacara di panti jompo. Dottie, yang mengenakan gaun pengantin putih yang indah dan kerudung serta memegang karangan bunga mawar sutra, menjelaskan bahwa pernikahan yang tidak biasa ini adalah sesuatu yang selalu ingin dia lakukan, dan melihatnya sebagai kesempatan kedua untuk melakukan sesuatu yang akan membuatnya bahagia. Pernikahan pertamanya, sebuah upacara sipil di gedung pengadilan pada tahun 1965, berantakan setelah bertahan sembilan tahun. Dottie tahu pernikahan pertamanya tidak akan bertahan lama ketika suaminya langsung kembali bekerja setelah kebaktian. "Saya mengenakan gaun hitam, jadi saya sudah ditakdirkan sebelum saya mulai," katanya kepada wartawan. Dottie, yang memiliki tiga anak, berkata, "Ini adalah sesuatu yang selalu saya inginkan. Saya ingin menikah dan memiliki kehidupan yang bahagia, tetapi hal-hal tidak berjalan seperti itu, dan sekarang saya memiliki kesempatan kedua untuk melakukan sesuatu. Ini akan membuat saya bahagia." Manajer panti jompo Dottie, Robert Geiger, bertindak sebagai pendeta pernikahan dan, setelah kebaktian di Ohio pada 13 Mei, para tamu disuguhi pesta resepsi mewah dengan kue pernikahan dua tingkat. Putri Dottie, Donna Pennington, adalah perencana pernikahan sang ibu. Dialah yang membeli gaun serta bunga dan memasak untuk para tamu. "Dia berkata, Oh, Bu, ya, ayo lakukan. Aku akan mengambil gaunmu, aku akan mengambilkan semuanya untukmu, kata Dottie menirukan ucapan putrinya. Pensiunan ibu tiga anak ini dikenal melakukan hal-hal nyentrik hingga membuat orang tertawa di rumahnya. Ketika saya melihat mereka semua di tempat pembuangan sampah, saya memakai salah satu pakaian saya dan berdandan dan turun, dan mereka tersenyum," katanya. Dottie memiliki pesan yang mendalam untuk semua orang: Semua orang mengambil ini di luar lily. Dan mereka menjalani hidup mereka dan mereka pikir mereka bahagia dan semuanya akan keren, tetapi mereka tidak mempertimbangkan bagian dalam, kelopak kecil di dalamnya adalah apa yang penting. Dia menambahkan, Di situlah cinta Tuhan mengalir, di situlah Dia memberimu hikmat dan Dia memberimu harapan. Cinta adalah hal terpenting di dunia ini, dan jika kamu mencintai Tuhan dan mencintai dirimu sendiri, dunia ini akan menjadi ladang mawar. Dottie, seperti dikutip The Mirror, Kamis (18/5/2023), sangat gembira dengan upacara tersebut dan berkata kepada putrinya, ini adalah hal terbaik yang pernah saya miliki, selain memiliki kalian, anak-anak. Inilah yang selalu saya inginkan.Meski pernikahan seperti ini aneh, Dottie bukan satu-satunya wanita yang menjalaninya. Tahun lalu, wanita India bernama Kshama Bindu (25) juga menikahi dirinya sendiri dalam sebuah upacara tradisional. Pernikahan tak biasa yang dikenal dengan istilah self-marriage atau sologami dijalani Bindu pada 11 Juni 2022. Semua ritual dan upacara, termasuk pheras dan penerapan sindoor dijalani Bindu.',
+                  'Seorang nenek berusia 77 tahun di Ohio, Amerika Serikat (AS), \n telah mengadakan pernikahan mewah yang tidak biasa karena dia menikahi dirinya sendiri. Itu dia jalani setelah sakit hati seumur hidup yang dirasakan akibat pernikahan pertamanya yang berantakan. Menikahi dirinya sendiri adalah mimpi Dorothy "Dottie" Fideli yang menjadi kenyataan. Pernikahan yang tidak biasa ini digelar dalam sebuah upacara di panti jompo. Dottie, yang mengenakan gaun pengantin putih yang indah dan kerudung serta memegang karangan bunga mawar sutra, menjelaskan bahwa pernikahan yang tidak biasa ini adalah sesuatu yang selalu ingin dia lakukan, dan melihatnya sebagai kesempatan kedua untuk melakukan sesuatu yang akan membuatnya bahagia. Pernikahan pertamanya, sebuah upacara sipil di gedung pengadilan pada tahun 1965, berantakan setelah bertahan sembilan tahun. Dottie tahu pernikahan pertamanya tidak akan bertahan lama ketika suaminya langsung kembali bekerja setelah kebaktian. "Saya mengenakan gaun hitam, jadi saya sudah ditakdirkan sebelum saya mulai," katanya kepada wartawan. Dottie, yang memiliki tiga anak, berkata, "Ini adalah sesuatu yang selalu saya inginkan. Saya ingin menikah dan memiliki kehidupan yang bahagia, tetapi hal-hal tidak berjalan seperti itu, dan sekarang saya memiliki kesempatan kedua untuk melakukan sesuatu. Ini akan membuat saya bahagia." Manajer panti jompo Dottie, Robert Geiger, bertindak sebagai pendeta pernikahan dan, setelah kebaktian di Ohio pada 13 Mei, para tamu disuguhi pesta resepsi mewah dengan kue pernikahan dua tingkat. Putri Dottie, Donna Pennington, adalah perencana pernikahan sang ibu. Dialah yang membeli gaun serta bunga dan memasak untuk para tamu. "Dia berkata, Oh, Bu, ya, ayo lakukan. Aku akan mengambil gaunmu, aku akan mengambilkan semuanya untukmu, kata Dottie menirukan ucapan putrinya. Pensiunan ibu tiga anak ini dikenal melakukan hal-hal nyentrik hingga membuat orang tertawa di rumahnya. Ketika saya melihat mereka semua di tempat pembuangan sampah, saya memakai salah satu pakaian saya dan berdandan dan turun, dan mereka tersenyum," katanya. Dottie memiliki pesan yang mendalam untuk semua orang: Semua orang mengambil ini di luar lily. Dan mereka menjalani hidup mereka dan mereka pikir mereka bahagia dan semuanya akan keren, tetapi mereka tidak mempertimbangkan bagian dalam, kelopak kecil di dalamnya adalah apa yang penting. Dia menambahkan, Di situlah cinta Tuhan mengalir, di situlah Dia memberimu hikmat dan Dia memberimu harapan. Cinta adalah hal terpenting di dunia ini, dan jika kamu mencintai Tuhan dan mencintai dirimu sendiri, dunia ini akan menjadi ladang mawar. Dottie, seperti dikutip The Mirror, Kamis (18/5/2023), sangat gembira dengan upacara tersebut dan berkata kepada putrinya, ini adalah hal terbaik yang pernah saya miliki, selain memiliki kalian, anak-anak. Inilah yang selalu saya inginkan.Meski pernikahan seperti ini aneh, Dottie bukan satu-satunya wanita yang menjalaninya. Tahun lalu, wanita India bernama Kshama Bindu (25) juga menikahi dirinya sendiri dalam sebuah upacara tradisional. Pernikahan tak biasa yang dikenal dengan istilah self-marriage atau sologami dijalani Bindu pada 11 Juni 2022. Semua ritual dan upacara, termasuk pheras dan penerapan sindoor dijalani Bindu.',
               });
             }}
           />
           <Card
             img={IBerita3}
             label="Begini Jadinya Kalau Bulan Meledak"
+            tgl="Wednesday, 25 May 2022"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita3,
@@ -145,6 +148,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita4}
             label="Hidungnya Hilang karena Kanker, Wanita Prancis Buat yang Baru di.."
+            tgl="Thursday, 30 June 2022"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita4,
@@ -159,6 +163,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita5}
             label="Tertidur Saat Main Petak Umpet, Bocah Bangladesh Ini Terbangun di Malaysia"
+            tgl="Friday, 5 August 2022"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita5,
@@ -173,6 +178,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita6}
             label="Arab Saudi Bersiap untuk Musim  Haji Terbesar yang Pernah Ada"
+            tgl="Saturday, 10 September 2022"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita6,
@@ -187,6 +193,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita7}
             label="Unik! Kereta Api di Kanada Bisa Dicegat Seperti Angkot"
+            tgl="Sunday, 16 October 2022"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita7,
@@ -201,6 +208,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita8}
             label="Kecelakaan Kereta Api Terburuk India dalam Abad Ini, Diduga Disebabkan Perubahan Interlocking Elektronik"
+            tgl="Monday, 21 November 2022"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita8,
@@ -215,6 +223,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita9}
             label="Viral Rafathar dan Rayyanza Foto Bareng Ricardo Kaka, Lirikan Mata Cipung Bikin Warganet Salfok"
+            tgl="Tuesday, 27 December 2022"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita9,
@@ -229,6 +238,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita10}
             label="Mobil China kian jadi primadona di Tanah Air"
+            tgl="Wednesday, 1 February 2023"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita10,
@@ -242,6 +252,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita11}
             label="Mengenal Lapisan Matahari dan Manfaatnya"
+            tgl="Thursday, 9 March 2023"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita11,
@@ -255,6 +266,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita12}
             label="Kenapa Air Laut Bisa Pasang Surut? Ketahui Proses, Jenis, dan Manfaatnya"
+            tgl="Friday, 14 April 2023"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita12,
@@ -269,6 +281,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita13}
             label="Kiat Ampuh Cegah Gagal Bayar Tagihan Paylater, Cekidot!"
+            tgl="Saturday, 20 May 2023"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita13,
@@ -283,6 +296,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita21}
             label="Pemerintah Beri Bonus Peraih Medali Sea Games 2023, Totalnya Rp289 Miliar"
+            tgl="Sunday, 25 June 2023"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita21,
@@ -297,6 +311,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita14}
             label="Ini Berbagai Tantangan Kembangkan Ekosistem Kendaraan Listrik"
+            tgl="Monday, 31 July 2023"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita14,
@@ -309,22 +324,9 @@ const HomePage = ({navigation}) => {
             }}
           />
           <Card
-            img={IBerita15}
-            label="Pemerintah Ajak Pemda Perkuat Layanan Publik Berbasis Digital"
-            onPress={() => {
-              navigation.navigate('Detail1', {
-                image: IBerita15,
-                titleDetail:
-                  'Pemerintah Ajak Pemda Perkuat Layanan Publik Berbasis Digital',
-                textDetail1: 'Angga Bratadharma',
-                textDetail2:
-                  'Denpasar: Kesuksesan transformasi digital dan administrasi pemerintahan bergantung pada digital leadership untuk mengawal perubahan dan pemanfaatan teknologi secara cepat. Di era digital ini, seorang pemimpin harus berkomitmen dan mudah beradaptasi dengan ide-ide baru serta memiliki keingintahuan intelektual."Transformasi digital akan membawa masa depan digital Pemerintah Indonesia yang lebih baik. Pelayanan yang didapatkan masyarakat juga cepat dan tepat," kata Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi (PANRB) Abdullah Azwar Anas, dikutip dari keterangan tertulisnya, Senin, 5 Juni 2023.Anas mencontohkan bagaimana digitalisasi pelayanan publik dilakukan secara masif dan terintegrasi di berbagai negara. "Inggris misalnya menyederhanakan ribuan aplikasi menjadi 75 aplikasi layanan saja. Di Estonia, identitas digital warga telah terkoneksi ke berbagai layanan mulai pendidikan, kesehatan, hingga transportasi. Demikian pula di Singapura," ujarnyaPresiden Joko Widodo, menurut Menteri PANRB, menaruh perhatian besar terkait digitalisasi layanan publik yang terintegrasi. Terbukti, Presiden Jokowi telah meneken Peraturan Presiden tentang Arsitektur Sistem Pemerintahan Berbasis Elektronik (SPBE) pada Desember 2022, dan Kementerian PANRB menjadi salah satu koordinatornya. "Perpres Arsitektur SPBE menjadi jalan pembuka untuk memperkuat integrasi pelayanan publik. Saat ini hal tersebut sedang dikebut melalui inisiatif strategis yang dijalankan paralel oleh tiga kementerian koordinator dengan berbagai kementerian di bawahnya," paparnya.Anas mengajak seluruh pemerintah daerah di Provinsi Bali bersama pemangku kepentingan lain untuk bersama-sama memperkuat digitalisasi di segala lini. Menurutnya Bali sebagai salah satu provinsi termaju di Indonesia diyakini bisa terus memperkuat layanan digitalnya."Pemda jangan berlomba bikin aplikasi, tapi harus melakukan interoperabilitas dengan pertukaran data antar-instansi yang mudah," ujarnya.Saat ini pemerintah merancang kebijakan Keterpaduan Layanan Digital Nasional dengan menetapkan sembilan layanan digital prioritas mencakup pendidikan, kesehatan, bantuan sosial, administrasi kependudukan, transaksi keuangan negara terpadu untuk payment gateway, layanan aparatur negara terintegrasi, layanan portal pelayanan publik, hingga Satu Data Indonesia.Dalam proses melakukan transformasi digital di pemerintahan, kata Anas, Indonesia mengambil pelajaran dari berbagai pemerintahan di seluruh dunia, di antaranya adalah Denmark, Inggris, Korea Selatan, dan Singapura. "Masalah yang mereka hadapi, lalu solusi yang dihadirkan, menjadi pelajaran bagi kita," ujarnya.Melalui Kementerian PANRB, juga telah terjalin kerja sama dengan Tony Blair Institute of Global Change (TBI) yang dilakukan pada 26 Mei 2023 di London, Inggris. Kementerian PANRB telah menandatangani Letter of Intent dengan Tony Blair Institute untuk berbagi pengalaman serta pengetahuan transformasi pelayanan publik berbasis digital. "Mengingat Inggris adalah salah satu pionir penerapan Arsitektur SPBE sejak 2005, dan masuk jajaran papan atas e-Government Development Index oleh PBB," pungkasnya.',
-              });
-            }}
-          />
-          <Card
             img={IBerita17}
             label="Ratusan Hewan Ternak di Surabaya Diberi Vaksin LSD Jelang Iduladha"
+            tgl="Wednesday, 11 October 2023"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita17,
@@ -339,6 +341,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita18}
             label="Angka Kejahatan di Kota Bandung Diklaim Turun"
+            tgl="Thursday, 16 November 2023"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita18,
@@ -352,6 +355,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita16}
             label="Puluhan Warga Mataram Keracunan Nasi Bungkus"
+            tgl="Friday, 22 December 2023"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita16,
@@ -365,6 +369,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita19}
             label="99% Komponen Mobil Bisa Didaur Ulang Toyota"
+            tgl="Saturday, 27 January 2024"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita20,
@@ -378,6 +383,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita20}
             label="Selain Kecelakaan, Ini Faktor yang Bikin Kaca Mobil Retak"
+            tgl="Sunday, 4 March 2024"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita20,
@@ -392,6 +398,7 @@ const HomePage = ({navigation}) => {
           <Card
             img={IBerita22}
             label="Profil Zlatan Ibrahimovic, Akhir Kisah si Penyihir"
+            tgl="Monday, 9 April 2024"
             onPress={() => {
               navigation.navigate('Detail1', {
                 image: IBerita22,
@@ -403,18 +410,6 @@ const HomePage = ({navigation}) => {
               });
             }}
           />
-          {/* <Card
-            img={Ikucing7}
-            label="Lorem ipsum dolor sit amet consectetur."
-            onPress={() => {
-              navigation.navigate('Detail1', {
-                image: Ikucing3,
-                titleDetail: '',
-                textDetail1: '',
-                textDetail2: '',
-              });
-            }}
-          /> */}
         </View>
       </View>
     </ScrollView>

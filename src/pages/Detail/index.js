@@ -10,7 +10,7 @@ import {
   Share,
 } from 'react-native';
 import {IBack, IbookmarkBerita, Ishare} from '../../assets';
-import {fonts} from '../../fonts';
+import { fonts } from '../../fonts';
 import Pinchable from 'react-native-pinchable';
 
 const windowWidth = Dimensions.get('window').width;
@@ -46,6 +46,7 @@ const Detail1 = ({route, navigation}) => {
               }}>
               <Image source={IBack} style={styles.back} />
             </TouchableOpacity>
+            <Text style={styles.detail}>News Detail</Text>
             <TouchableOpacity onPress={handleShare}>
               <Image source={Ishare} style={styles.share} />
             </TouchableOpacity>
@@ -144,6 +145,16 @@ const styles = StyleSheet.create({
     height: 0.07 * windowWidth,
     left: 0.78 * windowWidth,
   },
+  detail:{
+    fontSize: 0.053 * windowWidth,
+    color: '#666C8E',
+    position: 'absolute',
+    marginHorizontal: 0.064 * windowWidth,
+    fontFamily: fonts.primary.semibold,
+    marginBottom: 0.021 * windowWidth,
+    top: 0.005 * windowWidth,
+    left: 0.09 * windowWidth,
+  }
 });
 
 export default Detail1;

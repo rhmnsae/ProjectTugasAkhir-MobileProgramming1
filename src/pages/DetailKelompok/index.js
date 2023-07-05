@@ -8,7 +8,7 @@ import {
   ScrollView,
 } from 'react-native';
 import {fonts} from '../../fonts';
-import {Isae, Ijana, Iiki, Inanda, Inandi} from '../../assets';
+import {Iki, Jana, Nanda, Nandi, Sae} from '../../assets';
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
@@ -32,7 +32,7 @@ const DetailKelompok = () => {
         </View>
         <View style={styles.orang}>
           <Image
-            source={Ijana}
+            source={Jana}
             style={[styles.gbr, {width: gbrWidth, height: gbrHeight}]}
           />
           <View style={styles.cont}>
@@ -44,7 +44,7 @@ const DetailKelompok = () => {
             </Text>
           </View>
           <Image
-            source={Inanda}
+            source={Nanda}
             style={[styles.gbr, {width: gbrWidth, height: gbrHeight}]}
           />
           <View style={styles.cont}>
@@ -56,7 +56,7 @@ const DetailKelompok = () => {
             </Text>
           </View>
           <Image
-            source={Inandi}
+            source={Nandi}
             style={[styles.gbr, {width: gbrWidth, height: gbrHeight}]}
           />
           <View style={styles.cont}>
@@ -68,7 +68,7 @@ const DetailKelompok = () => {
             </Text>
           </View>
           <Image
-            source={Iiki}
+            source={Iki}
             style={[styles.gbr, {width: gbrWidth, height: gbrHeight}]}
           />
           <View style={styles.cont}>
@@ -80,7 +80,7 @@ const DetailKelompok = () => {
             </Text>
           </View>
           <Image
-            source={Isae}
+            source={Sae}
             style={[styles.gbr, {width: gbrWidth, height: gbrHeight}]}
           />
           <View style={styles.cont}>

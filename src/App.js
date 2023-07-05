@@ -75,7 +75,7 @@ const App = () => {
   const colorScheme = useColorScheme();
   return (
     <NavigationContainer theme={colorScheme === 'dark' ? DarkTheme : MyTheme}>
-      <Stack.Navigator initialRouteName="MainApp">
+      <Stack.Navigator initialRouteName="SplashScreen">
         <Stack.Screen
           name="SplashScreen"
           component={SplashScreen}
