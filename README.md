@@ -19,10 +19,10 @@ Mac News adalah sebuah aplikasi berita sederhana yang merupakan singkatan dari "
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/5d23931d-de51-4065-9d14-431fc74d5a39" alt="03 - Welcome Screen" width="160">
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/67cda29b-a865-434b-9f75-9eeb23875c5c" alt="04 - Sign In" width="160">
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/b19c4b4e-280a-4697-a41f-b7272840c7bd" alt="05 - Sign Up" width="160">
-    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/21888472-e483-4bb4-98da-6349746df6ff" alt="06 - Homepage" width="160">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/63dbe02e-0ba9-49de-a9ce-13de7239bf94" alt="06 - Homepage" width="160">
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/3da8e289-d60c-4823-bf77-5e80816565d6" alt="07 - Categories" width="160">
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/9158c936-e493-42b1-80de-1ac838be3096" alt="08 - Bookmarks Empty State" width="160">
-    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/370836dd-4835-4f6a-ad11-0ad1594c6a05" alt="09 - Detail" width="160">
+    <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/ab01da33-e1b0-4558-a953-6883eeb2f3d8" alt="09 - Detail" width="160">
     <img src="https://github.com/rhmnsae/ProjectTugasAkhir-MobileProgramming1/assets/94337229/982e5852-c56e-4a55-a6cc-bfd1e9564f76" alt="10 - Profile" width="160">
 </div>
 
